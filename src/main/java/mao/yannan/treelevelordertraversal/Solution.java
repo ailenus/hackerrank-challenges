@@ -80,16 +80,16 @@ public class Solution {
             }
         }
 
-    }
+        private static class Node {
 
-    private static class Node {
+            private final int datum;
+            private Node left;
+            private Node right;
 
-        private final int datum;
-        private Node left;
-        private Node right;
+            private Node(int datum) {
+                this.datum = datum;
+            }
 
-        private Node(int datum) {
-            this.datum = datum;
         }
 
     }

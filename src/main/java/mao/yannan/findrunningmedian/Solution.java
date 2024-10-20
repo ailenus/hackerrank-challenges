@@ -1,6 +1,7 @@
 package mao.yannan.findrunningmedian;
 
 import java.io.*;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.IntStream;
 
@@ -38,6 +39,8 @@ public class Solution {
 
 class Result {
 
+    private Result() { }
+
     /*
      * Complete the 'runningMedian' function below.
      *
@@ -47,7 +50,7 @@ class Result {
 
     public static List<Double> runningMedian(List<Integer> a) {
         // TODO
-        return null;
+        return Collections.emptyList();
     }
 
 }

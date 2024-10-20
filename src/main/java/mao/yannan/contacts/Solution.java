@@ -116,15 +116,15 @@ class Result {
             return current.wordCount;
         }
 
-    }
+        private static class Node {
 
-    private static class Node {
+            private final Map<Character, Node> children;
+            private int wordCount;
 
-        private final Map<Character, Node> children;
-        private int wordCount;
+            private Node() {
+                children = new HashMap<>();
+            }
 
-        private Node() {
-            children = new HashMap<>();
         }
 
     }
